@@ -57,20 +57,12 @@ From browser
 ```
 http://localhost:8080/events/list
 ```
-Also you can check directly from database
 
+hsqldb settings:
 ```
-http://localhost:8080/h2-console
-
+spring.datasource.url = jdbc:hsqldb:file:events
+spring.datasource.username=sa
 ```
-Connection settings:
-
-Saved Settings: Generic H2 (Embedded) <br>
-Setting Name: Generic H2 (Embedded) <br>
-Driver Class: org.h2.Driver <br>
-JDBC URL: jdbc:h2:mem:events <br>
-User Name: sa <br>
-Password: _empty_<br>
 
 
 ## Copyright
